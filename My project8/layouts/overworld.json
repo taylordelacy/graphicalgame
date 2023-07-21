@@ -70,21 +70,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NPC",
-      "persistentUuid": "196cafb9-af98-435d-8107-4675c15d4990",
-      "width": 0,
-      "x": 909,
-      "y": 101,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 92,
       "layer": "Dialogue",
@@ -154,21 +139,6 @@
       "x": 617,
       "y": 477,
       "zOrder": 510,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
-      "width": 0,
-      "x": 924,
-      "y": 48,
-      "zOrder": 511,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -368,13 +338,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 63,
+      "height": 78,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "bdecc0b0-d3b7-4b49-baf6-1336577dec78",
       "width": 310,
       "x": 3,
-      "y": 207,
+      "y": 192,
       "zOrder": 514,
       "numberProperties": [],
       "stringProperties": [],
@@ -400,7 +370,7 @@
       "angle": 90,
       "customSize": true,
       "depth": 0,
-      "height": 63,
+      "height": 64,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "efdfcab5-faae-4b62-b88c-b8668aab4f50",
@@ -468,7 +438,23 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 9000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": true,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
       "animations": [
         {
           "name": "Particle 1",
@@ -2110,7 +2096,7 @@
             "value": "SeparateFromObjects"
           },
           "parameters": [
-            "Player",
+            "Particle1",
             "CollisionDetect",
             ""
           ]
@@ -2131,254 +2117,13 @@
           },
           "parameters": [
             "",
-            "Player",
+            "Particle1",
             "",
             "",
             ""
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "PlayerMovement",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "E",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "YesButton"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "NoButton"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "Particle1",
-                    "TopDownMovement",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Particle1",
-                    "\"Up\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "\"Down\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Down\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "\"Right\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Right\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Left\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PauseAnimation"
-                  },
-                  "parameters": [
-                    "Player"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayAnimation"
-                  },
-                  "parameters": [
-                    "Player"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     },
     {
       "colorB": 228,
