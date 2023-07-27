@@ -622,6 +622,100 @@
         "name": "Particle 1",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Protection Circle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9905e7cd3776f361d23e9ef557242a924ed6f443b387c4ecdf8dba2882f0be9e_Protection Circle_13.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9905e7cd3776f361d23e9ef557242a924ed6f443b387c4ecdf8dba2882f0be9e_Protection Circle_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle glass_Broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f4d994ec20261657c2d89b74f0c19fafd0a1eea1451a9154648309ffbe3883f2_Circle glass_Broken.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Glass/f4d994ec20261657c2d89b74f0c19fafd0a1eea1451a9154648309ffbe3883f2_Circle glass_Broken.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Remote Circle_Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "23057cff60434f7a52d75eccbb067dc73311a1dbc6c324a384a96e40393de254_Remote Circle_Default.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/VR/Oculus/23057cff60434f7a52d75eccbb067dc73311a1dbc6c324a384a96e40393de254_Remote Circle_Default.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Emote Cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Emote Cloud.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/Emote/2ede72f3af1981d017d13c06edf1f40f4e089114e4986cbd4d9e7e3e5bb1d114_Emote Cloud.png",
+          "name": "Emote Cloud.png"
+        }
+      },
+      {
+        "file": "10 Hours of Rain Sound Relaxation _ Ultimate Stress Relief, Deep Sleep, Meditation, Yoga,....mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "10 Hours of Rain Sound Relaxation _ Ultimate Stress Relief, Deep Sleep, Meditation, Yoga,....mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Connecting Rainbows.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/World/375855f01cc2addd94c0eab7ef7699bc5ccda3d03f14f0f9d7c1157885273041_Connecting Rainbows.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VisionConePassive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VisionConePassive.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VisionConeActive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VisionConeActive.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
