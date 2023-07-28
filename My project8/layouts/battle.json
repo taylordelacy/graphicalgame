@@ -41,21 +41,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Transition",
-      "persistentUuid": "767cf046-bd7e-46a6-a0de-9e463bf21835",
-      "width": 0,
-      "x": 2104,
-      "y": 596,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 200,
       "layer": "",
@@ -80,21 +65,6 @@
       "x": 101,
       "y": 126,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Dialogue",
-      "name": "TextBorder",
-      "persistentUuid": "3eda7dbd-af4a-4a6f-a7d9-d9e294bbc3aa",
-      "width": 896,
-      "x": 32,
-      "y": 352,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -222,6 +192,7 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Enemy",
       "tags": "",
@@ -311,6 +282,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
       "tags": "",
@@ -629,6 +601,7 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "House2",
       "tags": "",
@@ -879,6 +852,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Background",
       "tags": "",
@@ -948,21 +922,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            "0.5",
-            "\"Circular\"",
-            "\"Backward\"",
-            "255",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"

@@ -20,8 +20,8 @@
     "templateSlug": "top-down-rpg",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "gameproject",
-    "description": "A monster tamer style top down rpg game example. Including top down movement, scrolling text during chat, camera controls, and a simple battle sequence.",
+    "name": "Rain or Shine",
+    "description": "A game that is just how life goes.",
     "author": "",
     "windowWidth": 960,
     "windowHeight": 540,
@@ -716,66 +716,175 @@
         "name": "VisionConeActive.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Limited vision (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Limited vision (1)2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy (1)2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/MPLUS1p-Light.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/77717e5c1f84f3ba9a3dd6e314bc0bdc3233351c657e8f6df40b7f50e8911b2b_White Square Decorated Button_Hovered.png",
+          "name": "White Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
+          "name": "White Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
+          "name": "White Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small sign.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/24d1129c40839fddc70b3f2159936c0c9af82f952e81cfae37ada95f50052b6b_Small sign.png",
+          "name": "Small sign.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy (1)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy (1)3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy (1)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy (1)4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Limited vision (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Limited vision (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._.._Downloads_Limited vision (1).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\..\\Downloads\\Limited vision (1)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Darkness.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Darkness",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
     {
-      "assetStoreId": "",
-      "name": "Transition",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "FlashTransitionPainter",
-          "type": "FlashTransitionPainter::FlashTransitionPainter",
-          "Timer": 1,
-          "Color": "255;255;255",
-          "Type": "",
-          "Direction": "",
-          "MaxOpacity": 255
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none"
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "TextBorder",
-      "rightMargin": 16,
-      "tags": "",
-      "texture": "Border.png",
-      "tiled": true,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
+      "folded": true,
+      "name": "GameStart",
+      "type": "boolean",
+      "value": false
     }
   ],
-  "objectsGroups": [],
-  "variables": [],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -788,6 +897,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/recolorizer"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
